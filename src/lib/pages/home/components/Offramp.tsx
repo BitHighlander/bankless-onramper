@@ -2,6 +2,7 @@ import {
   Grid,
 } from "@chakra-ui/react";
 import React, { useEffect } from "react";
+import "../../../styles/ButtonContainer.css";
 
 const Buy = () => {
 
@@ -20,9 +21,13 @@ const Buy = () => {
   }, []);
 
   return (
-    <Grid textAlign="center" gap={2}>
-      Offramp of LUSD
-    </Grid>
+      <div className="button-container">
+          <button className="button">Button 1</button>
+          <button className="button">Button 2</button>
+          <button className="button">Button 3</button>
+          <button className="button">Button 4</button>
+          <button className="button">Button 5</button>
+      </div>
   );
 };
 
