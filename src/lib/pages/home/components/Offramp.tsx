@@ -22,11 +22,11 @@ const Buy = () => {
 
   return (
       <div className="button-container">
-          <button className="button">Button 1</button>
-          <button className="button">Button 2</button>
-          <button className="button">Button 3</button>
-          <button className="button">Button 4</button>
-          <button className="button">Button 5</button>
+          <button className="button">$5</button>
+          <button className="button">$10</button>
+          <button className="button">$20</button>
+          <button className="button">$50</button>
+          <button className="button">$100</button>
       </div>
   );
 };
