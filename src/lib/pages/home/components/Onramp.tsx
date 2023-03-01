@@ -25,7 +25,7 @@ const Onramp = () => {
       };
 
       const submitResp = await axios.post(
-        "http://localhost:4000/api/v1/" + "status",
+        "http://localhost:4000/api/v1/status",
         body
       );
       // eslint-disable-next-line no-console
